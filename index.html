@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--    Originally copyright 2014 gokoururi
+        This work is free. You can redistribute it and/or modify it under the
+        terms of the Do What The Fuck You Want To Public License, Version 2,
+        as published by Sam Hocevar. See the COPYING file for more details. -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Welcome Home</title>
+
+        <link rel="stylesheet" style="text/css" href="general.css" />
+
+        <!-- To change theme, replace its name in following 4 lines  -->
+        <link rel="icon"                           href="themes/ruri-dark/favicon.ico" sizes="16x16 32x32 48x48 64x64" type="image/vnd.microsoft.icon" />
+        <link rel="stylesheet" style="text/css"    href="themes/ruri-dark/colors.css" />
+        <script type="text/javascript">var mascotPath = "themes/ruri-dark/images/mascots/";</script>
+        <script type="text/javascript"              src="themes/ruri-dark/mascots.js"></script>
+
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/mascots-control.js"></script>
+    </head>
+    <body>
+	<div id="background">
+    <img src="themes\ruri-dark\images\home-bg.png" class="stretch" alt="" />
+	</div>
+        <main> <!-- Random mascot image will be set as background-image by javascript -->
+            <header>
+                <h1> <span class="name-highlight">Welcome to the Internet</span></h1>
+                <p class="subtitle">Just give up you're not going to get anything done anyway</p>
+            </header>
+            <section class="searchContainer">
+                <form class="searchForm" method="get" action="https://startpage.com/do/search">
+                    <input class="searchBar search_google" type="text" name="q" placeholder="Startpage" autofocus="autofocus" search_/>
+                </form>
+                <form class="searchForm" method="get" action="https://youtube.com/results">
+                    <input class="searchBar search_youtube" type="text" name="search_query" placeholder="Youtube" search_/>
+                </form>
+                <form class="searchForm" method="get" action="https://en.wikipedia.org/w/index.php">
+                    <input class="searchBar search_wikipedia" type="text" name="search" placeholder="Wikipedia (en)" search_/>
+                </form>
+            </section>
+            <nav>
+                <ul class="buttonList">    
+		<li class="button button_red"><a href="https://www.youtube.com/">Youtube</a></li>
+                    <li class="button button_grey buttonArrow"><a href="#">Unsorted Websites</a>
+                        <ul>
+                            <li><a href="https://www.kat.cr">kat.cr</a></li>
+                            <li><a href="https://www.youtube.com/feed/history">Youtube History</a></li>
+                            <li><a href="http://extratorrent.cc/">extratorrent.cc</a></li>
+							<li><a href="https://www.startpage.com">Startpage</a></li>
+                        </ul>
+                    </li>
+					<li class="button button_grey buttonArrow"><a href="#">Email, Filehosting, Streaman</a>
+						<ul>
+						<li><a href="http://mail.cock.li">Mail</a></li>
+						<li><a href="https://pantsu.cat/">Pomf.se clone</a></li>
+						<li><a href="http://www.crunchyroll.com/">Crunchyroll</a></li>
+						</ul>
+                </ul>
+                <ul class="columnList">
+                    <li class="column column_purple">
+                        <a>Resources</a>
+                        <ul>
+							<li><a href="http://stackoverflow.com/">Stack Overflow</a></li>
+                            <li><a href="https://drive.google.com/folderview?id=0B_VmbVyD4eT3N1VUbGN4Wjd5OVE">Cute 2D Girls</a></li>
+                            <li><a href="https://developer.mozilla.org//">MDN</a></li>
+                            <li><a href="https://wiki.installgentoo.com/">Install Gentoo</a></li>
+                        </ul>
+                    </li>
+                    <li class="column column_green">
+                        <a>8chon</a>
+                        <ul>
+                            <li><a href="https://8ch.net/v/">Video Games</a></li>
+                            <li><a href="https://boards.4chan.org/w/">Wallpapers</a></li>
+                            <li><a href="https://8ch.net/tech/">/tech/</a></li>
+							<li><a href="https://8ch.net/lax/">Dead Comfy Board</a></li>
+							<li><a href="https://8ch.net/u/">yuri is for hug not for fug</a></li>
+                        </ul>
+                    </li>
+                    <li class="column column_pink">
+                        <a>Animution</a>
+                        <ul>
+							<li><a href="https://shingekinobrendyan.zohosites.com">Upcoming animu!</a></li>
+                            <li><a href="https://bakabt.me">Bakabt</a></li>
+                            <li><a href="http://www.nyaa.se/">Nyaa</a></li>
+                            <li><a href="http://utw.me">UTW</a></li>
+                            <li><a href="https://mazuisubs.com">Mazui</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </main>
+    </body>
+</html>
